@@ -19,6 +19,8 @@ compared with observed and predicted data. These two models were able to generat
 predictions with sufficient performance accuracy.
 
 
+![alt text](https://github.com/shahriar-rahman/Prediction-Of-Solar-Radiation/blob/main/Diagrams/SolarPanel.PNG)
+
 ## Introduction
 With the rise in technological advancements in our digital modern world, comes the rise in demand for
 electricity. Solar Panels have become one of the most used devices for electricity production as it
