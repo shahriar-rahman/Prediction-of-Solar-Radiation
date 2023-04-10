@@ -1,4 +1,4 @@
-# Prediction-Of-Solar-Radiation
+# Prediction of Solar Radiation using ANN
 Utilizing an Artificial Neural Network (ANN), a new solution for Solar Radiation is approached.
 
 ## Abstract
