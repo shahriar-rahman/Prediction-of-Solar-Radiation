@@ -1,5 +1,5 @@
 # Prediction of Solar Radiation using ANN
-Utilizing an Artificial Neural Network (ANN), a new solution for Solar Radiation is approached.
+Utilizing an Artificial Neural Network (ANN) based on Hyperparameter tuning, a new solution for Solar Radiation is approached.
 
 ## Abstract
 Most solar applications and systems can be reliably used to generate electricity and
