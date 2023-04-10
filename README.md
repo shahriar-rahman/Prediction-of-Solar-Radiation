@@ -37,3 +37,25 @@ learning to precisely obtain the necessary data. Generally, solar radiation data
 time series produced by a random and stochastic process [5]. As a result, precise mathematical
 modeling is necessary for efficient generalization. Hence, by using the historical data sample, it can be
 mathematically interpreted as a conditional expectation by using a precise model.
+
+
+## Data Acquisition
+The meteorological data consists of air pressure, time, humidity, wind speed, daily temperature, wind
+direction and global solar radiation. These data were recorded by a meteorological station from the
+Hawai’i Space Exploration Analog and Simulation weather station. Also known as HI-SEAS. The
+time period of the data collected is for four months (September through December, 2016) between
+Mission IV and Mission V. HI-SEAS is an environment located on a remote site on the Mauna Loa
+side of the saddle area on the Big Island of Hawaii in around 8100 feet above sea level.
+
+## Results & Discussion
+Initially, the model consisted of 8 layers with a regularizer values of 0.01 for both bias and kernel.
+After running the simulation, it is observed that better performance is accomplished by adding an extra
+layer with 15 depth and using a regularizing value of 0.009. We also faced some inconsistencies while
+using the Adam optimizer, even though it performed far better than other optimizers. However, we managed to locate the inconsistency in Adam and used a technique to find a workaround using an amalgamation of RMSProp and Momentum known as Adam. RMSProp helps reduce the vertical
+oscillation where Gradient descent with momentum adds momentum towards the horizontal direction,
+which is good because it prevents overshooting. However, even though we want to speed up the
+learning process at the start because it speeds up the learning process, it also needs to slow down after
+a while otherwise it would have difficulties converging. This is why we introduced another
+optimization technique known as learning rate decay. Learning rate decay allows the model to train at a much faster speed at the start, however, after
+taking some steps, it starts to reduce the speed of the learning process. Thus, giving it more time to
+converge properly.
