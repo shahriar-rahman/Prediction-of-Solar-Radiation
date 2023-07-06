@@ -1,7 +1,7 @@
 # Prediction of Solar Radiation using ANN
 Utilizing an Artificial Neural Network (ANN) based on Hyperparameter tuning, a new solution for Solar Radiation is approached.
 
-![alt text](https://github.com/shahriar-rahman/Prediction-of-Solar-Radiation/blob/branch-2/img/solarpanels.JPG)
+![alt text](https://github.com/shahriar-rahman/Prediction-of-Solar-Radiation/blob/main/img/solarpanels.JPG)
 
 ## Abstract
 Most solar applications and systems can be reliably used to generate electricity and
