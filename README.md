@@ -1,5 +1,7 @@
 # Prediction of Solar Radiation using ANN
-Utilizing an Artificial Neural Network (ANN) based on Hyperparameter tuning, a new solution for Solar Radiation is approached.
+In this Deep Learning research, an Artificial Neural Network (ANN) is utilized based on a hyperparameter tuning-focused approach to discover a new solution for Solar Radiation using a highly noisy and skewed dataset. </br> 
+[Published Conference Paper Link](https://iopscience.iop.org/article/10.1088/1742-6596/1767/1/012041)
+
 
 ![alt text](https://github.com/shahriar-rahman/Prediction-of-Solar-Radiation/blob/main/img/solarpanels.JPG)
 
@@ -71,7 +73,4 @@ converge properly.
 
 ![alt text](https://github.com/shahriar-rahman/Prediction-Of-Solar-Radiation/blob/main/Diagrams/Results.PNG)
 
-• Conference Paper Link: https://iopscience.iop.org/article/10.1088/1742-6596/1767/1/012041
-
-• Conference Event: ICDIIS’20
 
