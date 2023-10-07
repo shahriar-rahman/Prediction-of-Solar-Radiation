@@ -21,7 +21,7 @@ a system capable of interpreting patterns through supervised learning data and p
 correct amount of radiation present in the atmosphere. The results of the two statistical
 indicators: Mean Absolute Error (MAE) and Mean Squared Error (MSE) are performed and
 compared with observed and predicted data. These two models were able to generate efficient
-predictions with sufficient performance accuracy.
+predictions with sufficient performance accuracy. 
 
 ![alt text](https://github.com/shahriar-rahman/Prediction-Of-Solar-Radiation/blob/main/Diagrams/SolarPanel.PNG)
 
